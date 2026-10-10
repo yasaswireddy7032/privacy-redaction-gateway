@@ -1,0 +1,9 @@
+{
+  "text": "Demo only: [EMAIL_1], [PHONE_1], card [CARD_1].",
+  "redactions": {
+    "EMAIL": 1,
+    "PHONE": 1,
+    "CARD": 1
+  },
+  "total": 3
+}
