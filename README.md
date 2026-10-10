@@ -1,5 +1,7 @@
 # Privacy Redaction Gateway
 
+[![Tests](https://github.com/yasaswireddy7032/privacy-redaction-gateway/actions/workflows/tests.yml/badge.svg)](https://github.com/yasaswireddy7032/privacy-redaction-gateway/actions)
+
 A local text-redaction pipeline with overlap handling, stable in-request placeholders, and audit counts.
 
 **Status:** runnable portfolio reference implementation. Uses synthetic or hand-authored demonstration data. No employer code, customer data, or production performance claims.
@@ -22,7 +24,7 @@ Input text → regex candidates → card checksum → overlap resolution → per
 
 ## Validation
 
-Tests exercise failure cases and behavioral invariants, in addition to the executable demo. The included `github-actions-tests.yml` defines tests and the demo on pushes and pull requests. Install it as `.github/workflows/tests.yml` to activate CI. CI has not run on GitHub until this repository is published.
+Tests exercise failure cases and behavioral invariants, in addition to the executable demo. GitHub Actions runs the tests and demo on pushes and pull requests. See the Actions tab for current results.
 
 ## Limitations and next steps
 
